@@ -1,0 +1,33 @@
+{
+  "name": "react-jsonschema-form-codemirror-widget",
+  "description": "codemirror widget for react-jsonschema-form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poetic/react-jsonschema-form-codemirror-widget.git"
+  },
+  "keywords": [
+    "react",
+    "react-jsonschema-form",
+    "widget"
+  ],
+  "author": "Chun Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poetic/react-jsonschema-form-codemirror-widget/issues"
+  },
+  "homepage": "https://github.com/poetic/react-jsonschema-form-codemirror-widget#readme",
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "jsonlint": "^1.6.2",
+    "react": "^15.3.2",
+    "react-codemirror": "^0.2.6"
+  }
+}
