@@ -20,13 +20,13 @@ module.exports = function CodeMirrorWidget(props) {
   return React.createElement(
     CodeMirror,
     {
-      value: value || '',
-      className: classNames({ props.readonly }, props.className),
+      value: props.value || '',
+      className: classNames({ readonly: props.readonly }, props.className),
       onChange: props.onChange,
       options: Object.assign(
         {},
         {readOnly: props.readonly},
-        props.options,
+        props.options
       )
     }
   )

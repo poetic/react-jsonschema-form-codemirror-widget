@@ -1,3 +1,8 @@
+// NOTE: this global is used for javascript-lint addon
+// NOTE: jshint is too restrictive
+// window.JSHINT = require('jshint').JSHINT
+// require('codemirror/addon/lint/javascript-lint')
+
 require('codemirror/lib/codemirror.css')
 require('codemirror/mode/javascript/javascript')
 require('codemirror/addon/lint/lint.js')
@@ -25,7 +30,7 @@ module.exports = function CodeMirrorWidgetJavascript(props) {
         options: Object.assign(
           {},
           javascriptOptions,
-          props.options,
+          props.options
         )
       }
     )

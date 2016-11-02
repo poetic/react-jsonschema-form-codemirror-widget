@@ -1,6 +1,5 @@
-// NOTE: this is used for json-lint addon
-var parser = require('jsonlint').parser
-window.jsonlint = parser
+// NOTE: this global is used for json-lint addon
+window.jsonlint = require('jsonlint').parser
 require('codemirror/addon/lint/json-lint')
 
 require('codemirror/lib/codemirror.css')
@@ -30,7 +29,7 @@ module.exports = function CodeMirrorWidgetJSON(props) {
         options: Object.assign(
           {},
           jsonOptions,
-          props.options,
+          props.options
         )
       }
     )
