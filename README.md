@@ -25,7 +25,7 @@ class MyForm extends React.Component {
       type: "object",
       properties: {
         codeMirrorJavascript: {type: "string"},
-        codeMirrorJSON: {type: "string"},
+        codeMirrorJSON: {type: "string"}
       }
     }
 
