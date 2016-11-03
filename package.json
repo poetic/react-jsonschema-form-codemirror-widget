@@ -28,6 +28,6 @@
     "classnames": "^2.2.5",
     "jsonlint": "^1.6.2",
     "react": "^15.3.2",
-    "react-codemirror": "^0.2.6"
+    "react-codemirror": "git://github.com/poetic/react-codemirror.git#9d7c047"
   }
 }
